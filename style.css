@@ -1,0 +1,64 @@
+body{
+/* color:#ffa; */
+background-color: maroon;
+height: 1000px;
+}
+.navbar-light .navbar-brand{
+     color:black;
+     font-size: -webkit-xxx-large;
+    font-weight: bold;
+}
+.nav-link{
+     color:pink;
+     font-size:8vw;
+     margin:auto;
+}
+.navbar-light .navbar-nav .active>.nav-link,
+ .navbar-light .navbar-nav .nav-link{
+    text-align: center;
+    color:black;
+    font-size: 32px;
+}
+/* Decoration of Menu Bar*/
+ .decoration{
+      color:#efd209;
+    font-size:4vw;
+    font-weight: bold;
+ }
+ /* Decorating The p tag */
+.content{
+      /* width:90%; */
+      background-color: black;
+      color:wheat;
+      margin:auto;
+      position: relative;
+ }
+ /* Decorating the Heading */
+ .headingdecoration{
+      color:rgb(13, 238, 13);
+ }
+/* **************Positioning the Goto mainmanu bar**************** */
+
+.positioning{
+     position: absolute;
+     right:0;
+      bottom:-18px;
+      background-color: green;
+      color:wheat;
+}
+ /* for Destop screen */
+ @media (min-width: 992px){
+
+    .navbar-light .navbar-brand,.decoration{
+         font-size:30px;
+    }
+.navbar-expand-lg .navbar-nav .nav-link {
+    display: none;
+}
+ }
+ @media (max-width:991px){
+  .decoration{
+    font-size: 5vw;
+    margin:18px 0 8px 0px;
+}
+ }
