@@ -52,14 +52,16 @@ height: 1000px;
     .navbar-light .navbar-brand,.decoration{
          font-size:30px;
     }
-    .navbar-light .navbar-toggler-icon {
-     background-image: none;
- }
-.navbar-expand-lg .navbar-nav .nav-link .navbar-toggler-icon {
+      navbar-light .navbar-toggler-icon {
+    background-image:none;
+}
+.navbar-expand-lg .navbar-nav .nav-link,.navbar-light .navbar-toggler {
+   color:none;
+   border-color:none;
     display: none;
 }
  }
- @media (max-width:767px){
+ @media (max-width:769px){
   .decoration{
     font-size: 5vw;
     margin:18px 0 8px 0px;
