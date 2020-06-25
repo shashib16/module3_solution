@@ -52,6 +52,9 @@ height: 1000px;
     .navbar-light .navbar-brand,.decoration{
          font-size:30px;
     }
+      navbar-light .navbar-toggler-icon {
+    background-image:none;
+}
 .navbar-expand-lg .navbar-nav .nav-link {
     display: none;
 }
