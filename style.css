@@ -47,16 +47,19 @@ height: 1000px;
       color:wheat;
 }
  /* for Destop screen */
- @media (min-width: 992px){
+ @media (min-width: 768px){
 
     .navbar-light .navbar-brand,.decoration{
          font-size:30px;
     }
-.navbar-expand-lg .navbar-nav .nav-link {
+    .navbar-light .navbar-toggler-icon {
+     background-image: none;
+ }
+.navbar-expand-lg .navbar-nav .nav-link .navbar-toggler-icon {
     display: none;
 }
  }
- @media (max-width:991px){
+ @media (max-width:767px){
   .decoration{
     font-size: 5vw;
     margin:18px 0 8px 0px;
