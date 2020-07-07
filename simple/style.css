@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+
+  }
+
+  div {
+    box-sizing: border-box;
+    background-image: url(Marvel-Transparent.png);
+    background-color:gray;
+    background-repeat: no-repeat;
+  }
+ p{
+     color:rgb(255, 178, 10);
+     font-size:3em;
+ }
+ #item_id{
+     color:rgb(45, 214, 29);
+ }
+
+ li{
+     margin:10px;
+ }
+ li button{
+     font-size: 10px;
+     margin-left: 10px;
+     background-color: red;
+ }
