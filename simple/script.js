@@ -15,6 +15,10 @@ window.onresize = function() {
     div.style.width =  window.innerWidth+ 'px';
     div.style.height = window.innerHeight + 'px';
   }
+
+// ************************************* Above code have been used to set backgrond image according to width size**********************************************
+
+
     //  2
     // Create three variables that hold 
     //  references to the list (<ul>), <input>,
